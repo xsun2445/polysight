@@ -1,4 +1,4 @@
-<h1 align="center">PolySight</h1>
+<h1 align="center">POLySight</h1>
 
 <h3 align="center">Towards Practical Bi-Static Polarimetric Imaging Using Commodity mmWave Radars for Material Sensing</h3>
 

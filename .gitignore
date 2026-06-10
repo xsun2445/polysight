@@ -24,17 +24,11 @@ data/unsynced/
 data/raw/
 data/labels/
 data/materials/
-tmp
 *.bin
 *.npy
 *.pkl
 *.h5
 *.hdf5
-
-# Figures
-figures/
-*.png
-!hardware/3d_models/*.stl
 
 # OS
 .DS_Store
