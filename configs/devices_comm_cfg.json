@@ -1,0 +1,53 @@
+{
+    "activated_radar": [0, 1, 2],
+    "chirp_configs": [
+        {
+            "f0": 76.01e9,
+            "slope": 38.816929e12,
+            "ramp_time": 128.5e-6,
+            "adc_start_time": 7e-6,
+            "num_adc": 256,
+            "Fs": 2150e3,
+            "tx_start_time": 0,
+            "activated_tx": [1],
+            "activated_rx": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+        }
+    ],
+
+    "comm_cfg": {
+        "num_device": 4,
+        "num_slave": 3,
+
+        "master": {
+            "name": "",
+            "radar_name": "RH",
+            "port_type": "tcpip",
+            "IP": "",
+            "server_access_port": 5004
+        },
+
+        "slave_1": {
+            "name": "",
+            "radar_name": "RV",
+            "port_type": "tcpip",
+            "IP": "",
+            "server_access_port": 5001
+        },
+
+        "motor": {
+            "name": "arduino_uno",
+            "port_type": "serial",
+            "serial_port": "COM3",
+            "baud_rate": 9600,
+            "stepper_ratio": 200,
+            "timeout": 60
+        },
+
+        "trigger": {
+            "name": "raspberrypi",
+            "port_type": "tcpip",
+            "IP": "",
+            "server_access_port": 5000
+        }
+    }
+}

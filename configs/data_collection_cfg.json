@@ -1,0 +1,31 @@
+{
+    "dx": 2,
+    "dy": 2,
+    "total_x": 350,
+    "total_y": 200,
+    "initial_position_pointer": 0,
+    "moving_direction": "row",
+
+    "num_trigger": 16,
+    "period_frame": 1.5,
+    "vibration_pd": 6,
+    "num_frame": 16,
+    "num_chirp": 1,
+    "num_config": 1,
+    "num_adc": 256,
+    "num_ch": 4,
+    "radar_timeout": 3,
+    "packet_zero_filling": true,
+
+    "retrigger_list": ["master", "slave_1", "slave_4"],
+
+    "object_distance": 660,
+    "board_dist": 1.5175,
+    "txboard_angle_y": 44,
+    "rxboard_v_angle_y": -20,
+    "rxboard_angle_y": -55,
+    "rxboard_angle_z": 22.5,
+    "rxboard_tilt_offset": [38.3, 33, 30],
+    "saving_root_dir": "",
+    "description": ""
+}

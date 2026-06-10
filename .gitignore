@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+.claude/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (large files)
+data/unsynced/
+data/raw/
+data/labels/
+data/materials/
+tmp
+*.bin
+*.npy
+*.pkl
+*.h5
+*.hdf5
+
+# Figures
+figures/
+*.png
+!hardware/3d_models/*.stl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
